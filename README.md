@@ -1,6 +1,6 @@
-# Tinkercad & Arduino Projects Book 2013
+# Tinkercad tests & Arduino Projects Book 2013
 
-**Tinkercad** test with the **Arduino Projects Book 2013** (APB) of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015.
+**Tinkercad** tests based on the **Arduino Projects Book 2013** (APB) of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015.
 
 ## Tinkercad Links
 
