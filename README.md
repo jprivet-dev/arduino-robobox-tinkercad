@@ -6,4 +6,4 @@
 |---------------------------|-----------------------------------------------|
 | 02 Spaceship Interface    | https://www.tinkercad.com/things/2qAFmDYAGDe  |
 
-The text of the **Arduino Projects Book 2013** is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 3.0** License 2012 by **Arduino LLC**.
+The text of the **Arduino Projects Book** is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 3.0** License 2012 by **Arduino LLC**.
