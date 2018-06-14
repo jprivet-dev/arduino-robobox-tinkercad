@@ -3,27 +3,34 @@ const byte I = INPUT;
 const byte H = HIGH;
 const byte L = LOW;
 
-const int sensorPin = A0;
-const int serialPort = 9600;
-const float baselineTemp = 20.0;
+const int SENSOR_PIN = A0;
+const int SERIAL_PORT = 9600;
+
+const int BASELINE_TEMP = 20.0;
+const int BASELINE_TEMP_LEVEL_1 = BASELINE_TEMP;
+const int BASELINE_TEMP_LEVEL_2 = BASELINE_TEMP+10;
+const int BASELINE_TEMP_LEVEL_3 = BASELINE_TEMP+20;
+const int BASELINE_TEMP_LEVEL_4 = BASELINE_TEMP+30;
   
-const int pinNumberMin = 2;
-const int pinNumberMax = 4;
+const int PIN_NB_MIN = 2;
+const int PIN_NB_MAX = 4;
 
-const int sensorValFromLow = 20;
-const int sensorValToHigh = 358;
-const int temperatureFromLow = -40;
-const int temperatureToHigh = 125;
+const int SENSOR_VAL_MIN = 20;
+const int SENSOR_VAL_MAX = 358;
+const int TEMPERATURE_MIN = -40;
+const int TEMPERATURE_MAX = 125;
 
-const int ledPin1 = 4;
-const int ledPin2 = 3;
-const int ledPin3 = 2;
+const int LED_PIN_1 = 4;
+const int LED_PIN_2 = 3;
+const int LED_PIN_3 = 2;
+
+const int lOOP_DELAY = 300;
 
 void setup()
 {
-  Serial.begin(serialPort);
+  Serial.begin(SERIAL_PORT);
   
-  for(int pinNumber = pinNumberMin; pinNumber <= pinNumberMax; pinNumber++) {
+  for(int pinNumber = PIN_NB_MIN; pinNumber <= PIN_NB_MAX; pinNumber++) {
     pinMode(pinNumber, O);
     digitalWrite(pinNumber, L);
   }
@@ -31,33 +38,33 @@ void setup()
 
 void loop()
 {
-  int sensorVal = analogRead(sensorPin);
+  int sensorVal = analogRead(SENSOR_PIN);
   
   Serial.print("\nSensor Value: ");
   Serial.print(sensorVal);
   
-  float temperature = map(sensorVal, sensorValFromLow, sensorValToHigh, temperatureFromLow, temperatureToHigh);
+  float temperatureDegrees = map(sensorVal, SENSOR_VAL_MIN, SENSOR_VAL_MAX, TEMPERATURE_MIN, TEMPERATURE_MAX);
   
   Serial.print(", degrees C: ");
-  Serial.print(temperature);
+  Serial.print(temperatureDegrees);
   
-  if(temperature < baselineTemp) {
-    digitalWrite(ledPin1, L);
-    digitalWrite(ledPin2, L);
-    digitalWrite(ledPin3, L);
-  } else if(temperature >= baselineTemp+10 && temperature < baselineTemp+20) {
-    digitalWrite(ledPin1, H);
-    digitalWrite(ledPin2, L);
-    digitalWrite(ledPin3, L);
-  } else if(temperature >= baselineTemp+20 && temperature < baselineTemp+30) {
-    digitalWrite(ledPin1, H);
-    digitalWrite(ledPin2, H);
-    digitalWrite(ledPin3, L);
-  } else if(temperature >= baselineTemp+30) {
-    digitalWrite(ledPin1, H);
-    digitalWrite(ledPin2, H);
-    digitalWrite(ledPin3, H);
+  if(temperatureDegrees < BASELINE_TEMP_LEVEL_1) {
+    digitalWrite(LED_PIN_1, L);
+    digitalWrite(LED_PIN_2, L);
+    digitalWrite(LED_PIN_3, L);
+  } else if(temperatureDegrees >= BASELINE_TEMP_LEVEL_2 && temperatureDegrees < BASELINE_TEMP_LEVEL_3) {
+    digitalWrite(LED_PIN_1, H);
+    digitalWrite(LED_PIN_2, L);
+    digitalWrite(LED_PIN_3, L);
+  } else if(temperatureDegrees >= BASELINE_TEMP_LEVEL_3 && temperatureDegrees < BASELINE_TEMP_LEVEL_4) {
+    digitalWrite(LED_PIN_1, H);
+    digitalWrite(LED_PIN_2, H);
+    digitalWrite(LED_PIN_3, L);
+  } else if(temperatureDegrees >= BASELINE_TEMP_LEVEL_4) {
+    digitalWrite(LED_PIN_1, H);
+    digitalWrite(LED_PIN_2, H);
+    digitalWrite(LED_PIN_3, H);
   }
   
-  delay(300);
+  delay(lOOP_DELAY);
 }
