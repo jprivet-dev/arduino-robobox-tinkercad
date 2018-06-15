@@ -25,6 +25,7 @@ const int LED_4_PIN = 2;
 
 const int LED_PIN_MIN = 2;
 const int LED_PIN_MAX = 5;
+const int LED_COUNT = LED_PIN_MAX - LED_PIN_MIN + 1;
 
 const int lOOP_DELAY = 300;
 
@@ -42,6 +43,9 @@ void setup()
 
 void loop()
 {
+  int tempLevel;
+  int pinNumber;
+  int level;
   int sensorVal = analogRead(SENSOR_PIN);
   float t = map(sensorVal, SENSOR_VAL_MIN, SENSOR_VAL_MAX, TEMP_MIN, TEMP_MAX);
   
@@ -50,32 +54,15 @@ void loop()
   Serial.print("\tdegrees C: ");
   Serial.print(t);
   
-  if(t < TEMP_LEVEL_0) {
-    digitalWrite(LED_1_PIN, L);
-    digitalWrite(LED_2_PIN, L);
-    digitalWrite(LED_3_PIN, L);
-    digitalWrite(LED_4_PIN, L);
-  } else if(t >= TEMP_LEVEL_1 && t < TEMP_LEVEL_2) {
-    digitalWrite(LED_1_PIN, H);
-    digitalWrite(LED_2_PIN, L);
-    digitalWrite(LED_3_PIN, L);
-    digitalWrite(LED_4_PIN, L);
-  } else if(t >= TEMP_LEVEL_2 && t < TEMP_LEVEL_3) {
-    digitalWrite(LED_1_PIN, H);
-    digitalWrite(LED_2_PIN, H);
-    digitalWrite(LED_3_PIN, L);
-    digitalWrite(LED_4_PIN, L);
-  } else if(t >= TEMP_LEVEL_3 && t < TEMP_LEVEL_4) {
-    digitalWrite(LED_1_PIN, H);
-    digitalWrite(LED_2_PIN, H);
-    digitalWrite(LED_3_PIN, H);
-    digitalWrite(LED_4_PIN, L);
-  } else if(t >= TEMP_LEVEL_4) {
-    digitalWrite(LED_1_PIN, H);
-    digitalWrite(LED_2_PIN, H);
-    digitalWrite(LED_3_PIN, H);
-    digitalWrite(LED_4_PIN, H);
-  }
+  for(int i = 0; i < LED_COUNT; i++) {
+	  pinNumber = i + LED_PIN_MIN;
+	  tempLevel = TEMP_LEVEL_0 + (i * TEMP_INTERVAL);
+	  if(t > tempLevel) {
+		digitalWrite(pinNumber, H);
+	  }	else {
+		digitalWrite(pinNumber, L);
+	  }
+  }  
   
   delay(lOOP_DELAY);
 }
