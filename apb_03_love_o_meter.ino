@@ -46,9 +46,9 @@ void loop()
 	  int ledPin = LED_PIN_MIN + i;
 	  int tempLevel = TEMP_BASELINE_MIN + (i * TEMP_INTERVAL);
 	  if(sensorTemp > tempLevel) {
-		digitalWrite(ledPin, HIGH);
-	  }	else {
-		digitalWrite(ledPin, LOW);
+		  digitalWrite(ledPin, HIGH);
+	  } else {
+		  digitalWrite(ledPin, LOW);
 	  }
   }  
   
