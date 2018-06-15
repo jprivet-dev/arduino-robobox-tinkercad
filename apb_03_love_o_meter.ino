@@ -1,3 +1,6 @@
+// Code for APB-03 Love-O-Meter
+// @see https://www.tinkercad.com/things/cgPamtJwfSP
+
 const int SENSOR_PIN = A0;
 const int SENSOR_VAL_MIN = 20;
 const int SENSOR_VAL_MAX = 358;
