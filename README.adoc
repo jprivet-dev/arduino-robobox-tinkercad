@@ -15,15 +15,22 @@
 == Tinkercad Links
 
 |===
-|Tinkercad links |Screenshoot
+|Arduino Project |Screenshoot
 
 a|
-- {APB_02_LABEL}
-- {APB_02_LINK}
-- link:{APB_02_INO}[]
-a|image::{APB_02_IMG}[]
+**{APB_02_LABEL}**
 
-|{APB_03_LINK}[{APB_03_LABEL}]  | {APB_03_INO}   a|image::{APB_03_IMG}[]
+- link:{APB_02_INO}[]
+- {APB_02_LINK}
+a|image::{APB_02_IMG}[link={APB_02_LINK}]
+
+a|
+**{APB_03_LABEL}**
+
+- link:{APB_03_INO}[]
+- {APB_03_LINK}
+a|image::{APB_03_IMG}[link={APB_03_LINK}]
+
 |===
 
 == License
