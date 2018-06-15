@@ -43,13 +43,13 @@ void loop()
   Serial.print(sensorTemp);
   
   for(int i = 0; i < LED_COUNT; i++) {
-	int ledPin = LED_PIN_MIN + i;
-	int tempLevel = TEMP_BASELINE_MIN + (i * TEMP_INTERVAL);
-	if(sensorTemp > tempLevel) {
-	  digitalWrite(ledPin, HIGH);
-	} else {
-	  digitalWrite(ledPin, LOW);
-	}
+    int ledPin = LED_PIN_MIN + i;
+    int tempLevel = TEMP_BASELINE_MIN + (i * TEMP_INTERVAL);
+    if(sensorTemp > tempLevel) {
+      digitalWrite(ledPin, HIGH);
+    } else {
+      digitalWrite(ledPin, LOW);
+    }
   }  
   
   delay(lOOP_DELAY);
