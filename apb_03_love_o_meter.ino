@@ -21,9 +21,9 @@ void setup()
 {
   Serial.begin(SERIAL_PORT);
   
-  for(int pinNumber = LED_PIN_MIN; pinNumber <= LED_PIN_MAX; pinNumber++) {
-    pinMode(pinNumber, OUTPUT);
-    digitalWrite(pinNumber, LOW);
+  for(int ledPin = LED_PIN_MIN; ledPin <= LED_PIN_MAX; ledPin++) {
+    pinMode(ledPin, OUTPUT);
+    digitalWrite(ledPin, LOW);
   }
   
   Serial.print("Ready!");
@@ -32,20 +32,20 @@ void setup()
 void loop()
 {
   int sensorVal = analogRead(SENSOR_PIN);
-  float t = map(sensorVal, SENSOR_VAL_MIN, SENSOR_VAL_MAX, SENSOR_TEMP_MIN, SENSOR_TEMP_MAX);
+  float sensorTemp = map(sensorVal, SENSOR_VAL_MIN, SENSOR_VAL_MAX, SENSOR_TEMP_MIN, SENSOR_TEMP_MAX);
   
   Serial.print("\nSensor Value: ");
   Serial.print(sensorVal); 
   Serial.print("\tdegrees C: ");
-  Serial.print(t);
+  Serial.print(sensorTemp);
   
   for(int i = 0; i < LED_COUNT; i++) {
-	  int pinNumber = LED_PIN_MIN + i;
+	  int ledPin = LED_PIN_MIN + i;
 	  int tempLevel = TEMP_BASELINE_MIN + (i * TEMP_INTERVAL);
-	  if(t > tempLevel) {
-		digitalWrite(pinNumber, HIGH);
+	  if(sensorTemp > tempLevel) {
+		digitalWrite(ledPin, HIGH);
 	  }	else {
-		digitalWrite(pinNumber, LOW);
+		digitalWrite(ledPin, LOW);
 	  }
   }  
   
