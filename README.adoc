@@ -12,10 +12,8 @@
 
 **Tinkercad** tests based on the **Arduino Projects Book 2013** (APB) of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015.
 
-== Tinkercad Links
-
 |===
-|Arduino Project |Screenshoot
+|Tinkercad Projects |Screenshoots
 
 a|
 **{APB_02_LABEL}**
