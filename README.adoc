@@ -1,9 +1,11 @@
 :APB_02_LABEL: APB-02 Spaceship Interface
 :APB_02_LINK: https://www.tinkercad.com/things/2qAFmDYAGDe
+:APB_02_INO: repo/blob/dev/ino/apb_02_spaceship_interface.ino
 :APB_02_IMG: img/apb_02_spaceship_interface.png
 
 :APB_03_LABEL: APB-03 Love-O-Meter
 :APB_03_LINK: https://www.tinkercad.com/things/cgPamtJwfSP
+:APB_03_INO: repo/blob/dev/ino/apb_03_love_o_meter.ino
 :APB_03_IMG: img/apb_03_love_o_meter.png
 
 = Tinkercad tests & Arduino Projects Book 2013
@@ -13,9 +15,9 @@
 == Tinkercad Links
 
 |===
-|Tinkercad links                |Screenshoot
-|{APB_02_LINK}[{APB_02_LABEL}] a|image::{APB_02_IMG}[]
-|{APB_03_LINK}[{APB_03_LABEL}] a|image::{APB_03_IMG}[]
+|Tinkercad links                | .ino            |Screenshoot
+|{APB_02_LINK}[{APB_02_LABEL}]  | {APB_02_INO}   a|image::{APB_02_IMG}[]
+|{APB_03_LINK}[{APB_03_LABEL}]  | {APB_03_INO}   a|image::{APB_03_IMG}[]
 |===
 
 == License
