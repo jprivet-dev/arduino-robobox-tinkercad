@@ -1,35 +1,72 @@
+:numbered:
+:toc: macro
+:sectanchors:
+
+:BACK_TO_TOP_TARGET: back-to-top
+:BACK_TO_TOP_LABEL: ⬆ Back to top
+:BACK_TO_TOP: <<{BACK_TO_TOP_TARGET},{BACK_TO_TOP_LABEL}>>
+
+:SCREENSHOOT_WITDH: 300
 :APB_02_LABEL: APB-02 Spaceship Interface
 :APB_02_LINK: https://www.tinkercad.com/things/2qAFmDYAGDe
-:APB_02_INO: ino/apb_02_spaceship_interface.ino
-:APB_02_IMG: img/apb_02_spaceship_interface.png
+:APB_02_BASENAME: apb_02_spaceship_interface
+:APB_02_INO: ino/{APB_02_BASENAME}.ino
+:APB_02_IMG: img/{APB_02_BASENAME}.png
 
 :APB_03_LABEL: APB-03 Love-O-Meter
 :APB_03_LINK: https://www.tinkercad.com/things/cgPamtJwfSP
-:APB_03_INO: ino/apb_03_love_o_meter.ino
-:APB_03_IMG: img/apb_03_love_o_meter.png
+:APB_03_BASENAME: apb_03_love_o_meter
+:APB_03_INO: ino/{APB_03_BASENAME}.ino
+:APB_03_IMG: img/{APB_03_BASENAME}.png
 
-= Tinkercad tests & Arduino Projects Book 2013
+[#{BACK_TO_TOP_TARGET}]
+= Arduino / Tinkercad projects
 
-**Tinkercad** tests based on the **Arduino Projects Book 2013** (APB) of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015.
+'''
+
+:toc-title: Table of contents
+:toclevels: 3
+toc::[]
+
+'''
+
+== Presentation
+
+All my https://www.arduino.cc/[Arduino] and https://www.tinkercad.com/[Tinkercad] projects.
+
+Sources of inspiration:
+
+- Examples from Arduino's main repository (https://github.com/arduino/Arduino/tree/master/build/shared/examples)
+- Arduino Projects Book 2013 of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015
+- Every once in a while... my brain
+
+{BACK_TO_TOP}
+
+== Arduino Projects Book 2013 & Tinkercad
+
+**Tinkercad** projects based on the **Arduino Projects Book 2013** (APB) of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015.
+
+=== {APB_02_LABEL}
 
 |===
-|Tinkercad Projects |Screenshoots
-
+| LINKS | SCREESHOOT
 a|
-**{APB_02_LABEL}**
+- **Code** : link:{APB_02_INO}[]
+- **Tinkercad project** : {APB_02_LINK}
+a|image::{APB_02_IMG}[link={APB_02_LINK}, width={SCREENSHOOT_WITDH}]
+|===
 
-- link:{APB_02_INO}[]
-- {APB_02_LINK}
-a|image::{APB_02_IMG}[link={APB_02_LINK}]
-
-a|
-**{APB_03_LABEL}**
-
-- link:{APB_03_INO}[]
-- {APB_03_LINK}
-a|image::{APB_03_IMG}[link={APB_03_LINK}]
+=== {APB_03_LABEL}
 
 |===
+| LINKS | SCREESHOOT
+a|
+- **Code** : link:{APB_03_INO}[]
+- **Tinkercad project** : {APB_03_LINK}
+a|image::{APB_03_IMG}[link={APB_03_LINK}, width={SCREENSHOOT_WITDH}]
+|===
+
+{BACK_TO_TOP}
 
 == License
 
