@@ -22,6 +22,8 @@
 [#{BACK_TO_TOP_TARGET}]
 = Arduino / Tinkercad projects
 
+image:https://api.codacy.com/project/badge/Grade/678af1d16d8c4459845cd800e30692f5["Codacy code quality", link="https://www.codacy.com/app/jprivet-dev/arduino-tinkercad?utm_source=github.com&utm_medium=referral&utm_content=jprivet-dev/arduino-tinkercad&utm_campaign=Badge_Grade"]
+
 '''
 
 :toc-title: Table of contents
