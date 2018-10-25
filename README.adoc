@@ -7,20 +7,35 @@
 :BACK_TO_TOP: <<{BACK_TO_TOP_TARGET},{BACK_TO_TOP_LABEL}>>
 
 :SCREENSHOOT_WITDH: 300
+
 :APB_02_LABEL: APB-02 Spaceship Interface
 :APB_02_LINK: https://www.tinkercad.com/things/2qAFmDYAGDe
 :APB_02_BASENAME: apb_02_spaceship_interface
-:APB_02_INO: ino/{APB_02_BASENAME}.ino
-:APB_02_IMG: img/{APB_02_BASENAME}.png
+:APB_02_INO: src/arduino-projects-book/ino/{APB_02_BASENAME}.ino
+:APB_02_IMG: docs/img/{APB_02_BASENAME}.png
 
 :APB_03_LABEL: APB-03 Love-O-Meter
 :APB_03_LINK: https://www.tinkercad.com/things/cgPamtJwfSP
 :APB_03_BASENAME: apb_03_love_o_meter
-:APB_03_INO: ino/{APB_03_BASENAME}.ino
-:APB_03_IMG: img/{APB_03_BASENAME}.png
+:APB_03_INO: src/arduino-projects-book/ino/{APB_03_BASENAME}.ino
+:APB_03_IMG: docs/img/{APB_03_BASENAME}.png
+
+:ROBOBOX_01_LABEL: Robobox 01 - Mini Alarme
+:ROBOBOX_01_LINK: https://www.tinkercad.com/things/dXbkCwjcshu
+:ROBOBOX_01_BASENAME: robobox-01-mini-alarme
+:ROBOBOX_01_INO: src/robobox/ino/{ROBOBOX_01_BASENAME}.ino
+:ROBOBOX_01_IMG: docs/img/{ROBOBOX_01_BASENAME}.png
+
+:ROBOBOX_02_LABEL: Robobox 02 - Bras articulé - Circuit de billes infini V1
+:ROBOBOX_02_LINK: https://www.tinkercad.com/things/ifL4sacrSCk
+:ROBOBOX_02_LINK_VIDEO: https://twitter.com/jprivet_dev/status/1047898107575500805
+:ROBOBOX_02_BASENAME: robobox-02-bras-articule-circuit-de-billes-infini-v1
+:ROBOBOX_02_INO: src/robobox/ino/{ROBOBOX_02_BASENAME}.ino
+:ROBOBOX_02_IMG: docs/img/{ROBOBOX_02_BASENAME}.png
+:ROBOBOX_02_IMG_VIDEO: docs/img/{ROBOBOX_02_BASENAME}-video.png
 
 [#{BACK_TO_TOP_TARGET}]
-= Arduino / Tinkercad projects
+= Arduino / Robobox / Tinkercad (Autodesk) Projects & Tests
 
 image:https://api.codacy.com/project/badge/Grade/678af1d16d8c4459845cd800e30692f5["Codacy code quality", link="https://www.codacy.com/app/jprivet-dev/arduino-tinkercad?utm_source=github.com&utm_medium=referral&utm_content=jprivet-dev/arduino-tinkercad&utm_campaign=Badge_Grade"]
 
@@ -32,23 +47,27 @@ toc::[]
 
 '''
 
-== Presentation
-
-All my https://www.arduino.cc/[Arduino] and https://www.tinkercad.com/[Tinkercad] projects.
-
-Sources of inspiration:
-
-- Examples from Arduino's main repository (https://github.com/arduino/Arduino/tree/master/build/shared/examples)
-- Arduino Projects Book 2013 of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015
-- Every once in a while... my brain
-
 {BACK_TO_TOP}
 
 == Arduino Projects Book 2013 & Tinkercad
 
-**Tinkercad** projects based on the **Arduino Projects Book 2013** (APB) of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015.
+=== Presentation
 
-=== {APB_02_LABEL}
+https://www.arduino.cc/[Arduino] and https://www.tinkercad.com/[Tinkercad] projects and tests based on the **Arduino Projects Book 2013** (APB) of the Starter Kit I bought in 2015.
+
+=== Resources
+
+- Examples from Arduino's main repository (https://github.com/arduino/Arduino/tree/master/build/shared/examples)
+- Arduino Projects Book 2013 of the Starter Kit (https://store.arduino.cc/genuino-starter-kit)
+- Every once in a while... my brain
+
+=== License
+
+The text of the **Arduino Projects Book** is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 3.0** License 2012 by **Arduino LLC**.
+
+=== Projects and tests
+
+==== {APB_02_LABEL}
 
 |===
 | LINKS | SCREESHOOT
@@ -58,7 +77,7 @@ a|
 a|image::{APB_02_IMG}[link={APB_02_LINK}, width={SCREENSHOOT_WITDH}]
 |===
 
-=== {APB_03_LABEL}
+==== {APB_03_LABEL}
 
 |===
 | LINKS | SCREESHOOT
@@ -70,6 +89,39 @@ a|image::{APB_03_IMG}[link={APB_03_LINK}, width={SCREENSHOOT_WITDH}]
 
 {BACK_TO_TOP}
 
-== License
+== Robobox & Tinkercad
 
-The text of the **Arduino Projects Book** is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 3.0** License 2012 by **Arduino LLC**.
+=== Presentation
+
+Robobox projects and tests : sharing of my Arduino & Tinkercad (Autodesk) codes and assemblies.
+
+=== Resources
+
+- https://www.robobox.fr
+- https://github.com/RoboboxFR
+
+=== Projects and tests
+
+==== {ROBOBOX_01_LABEL}
+
+|===
+| LINKS | SCREESHOOT
+a|
+- **Code** : link:{ROBOBOX_01_INO}[]
+- **Tinkercad project** : {ROBOBOX_01_LINK}
+a|image::{ROBOBOX_01_IMG}[link={ROBOBOX_01_LINK}, width={SCREENSHOOT_WITDH}]
+|===
+
+==== {ROBOBOX_02_LABEL}
+
+|===
+| LINKS | SCREESHOOT
+a|
+- **Code** : link:{ROBOBOX_02_INO}[]
+- **Tinkercad project** : {ROBOBOX_02_LINK}
+- **Video on** {ROBOBOX_02_LINK_VIDEO}
+a|
+image::{ROBOBOX_02_IMG}[link={ROBOBOX_02_LINK}, width={SCREENSHOOT_WITDH}]
+image::{ROBOBOX_02_IMG_VIDEO}[link={ROBOBOX_02_LINK_VIDEO}, width={SCREENSHOOT_WITDH}]
+|===
+
