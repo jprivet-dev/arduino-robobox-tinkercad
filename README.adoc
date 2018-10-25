@@ -29,7 +29,7 @@
 :ROBOBOX_02_LABEL: Robobox 02 - Bras articulé - Circuit de billes infini V1
 :ROBOBOX_02_LINK: https://www.tinkercad.com/things/ifL4sacrSCk
 :ROBOBOX_02_LINK_VIDEO: https://twitter.com/jprivet_dev/status/1047898107575500805
-:ROBOBOX_02_BASENAME: bras-articule-circuit-de-billes-infini
+:ROBOBOX_02_BASENAME: robobox-02-bras-articule-circuit-de-billes-infini-v1
 :ROBOBOX_02_INO: src/robobox/ino/{ROBOBOX_02_BASENAME}.ino
 :ROBOBOX_02_IMG: docs/img/{ROBOBOX_02_BASENAME}.png
 :ROBOBOX_02_IMG_VIDEO: docs/img/{ROBOBOX_02_BASENAME}-video.png
