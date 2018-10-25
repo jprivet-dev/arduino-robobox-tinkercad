@@ -26,6 +26,12 @@
 :APB_04_INO: src/arduino-projects-book/ino/{APB_04_BASENAME}.ino
 :APB_04_IMG: docs/img/{APB_04_BASENAME}.png
 
+:APB_05_LABEL: APB-05 Mood Cue
+:APB_05_LINK: https://www.tinkercad.com/things/azCWlFFOMtQ
+:APB_05_BASENAME: apb_05_mood_cue
+:APB_05_INO: src/arduino-projects-book/ino/{APB_05_BASENAME}.ino
+:APB_05_IMG: docs/img/{APB_05_BASENAME}.png
+
 :ROBOBOX_01_LABEL: Robobox 01 - Mini Alarme
 :ROBOBOX_01_LINK: https://www.tinkercad.com/things/dXbkCwjcshu
 :ROBOBOX_01_BASENAME: robobox-01-mini-alarme
@@ -101,6 +107,16 @@ a|
 - **Code** : link:{APB_04_INO}[]
 - **Tinkercad project** : {APB_04_LINK}
 a|image::{APB_04_IMG}[link={APB_04_LINK}, width={SCREENSHOOT_WITDH}]
+|===
+
+==== {APB_05_LABEL}
+
+|===
+| LINKS | SCREESHOOT
+a|
+- **Code** : link:{APB_05_INO}[]
+- **Tinkercad project** : {APB_05_LINK}
+a|image::{APB_05_IMG}[link={APB_05_LINK}, width={SCREENSHOOT_WITDH}]
 |===
 
 {BACK_TO_TOP}
