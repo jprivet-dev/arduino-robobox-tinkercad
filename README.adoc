@@ -22,9 +22,11 @@
 
 :ROBOBOX_02_LABEL: Robobox 02 - Bras articulé - Circuit de billes infini V1
 :ROBOBOX_02_LINK: https://www.tinkercad.com/things/ifL4sacrSCk
+:ROBOBOX_02_LINK_VIDEO: https://twitter.com/jprivet_dev/status/1047898107575500805
 :ROBOBOX_02_BASENAME: bras-articule-circuit-de-billes-infini
 :ROBOBOX_02_INO: src/robobox/ino/{ROBOBOX_02_BASENAME}.ino
 :ROBOBOX_02_IMG: docs/img/{ROBOBOX_02_BASENAME}.png
+:ROBOBOX_02_IMG_VIDEO: docs/img/{ROBOBOX_02_BASENAME}-video.png
 
 [#{BACK_TO_TOP_TARGET}]
 = Arduino / Robobox / Tinkercad (Autodesk) Projects & Tests
@@ -101,5 +103,9 @@ Robobox projects and tests : sharing of my Arduino & Tinkercad (Autodesk) codes 
 a|
 - **Code** : link:{ROBOBOX_02_INO}[]
 - **Tinkercad project** : {ROBOBOX_02_LINK}
-a|image::{ROBOBOX_02_IMG}[link={ROBOBOX_02_LINK}, width={SCREENSHOOT_WITDH}]
+- **Video on** {ROBOBOX_02_LINK_VIDEO}
+a|
+image::{ROBOBOX_02_IMG}[link={ROBOBOX_02_LINK}, width={SCREENSHOOT_WITDH}]
+image::{ROBOBOX_02_IMG_VIDEO}[link={ROBOBOX_02_LINK_VIDEO}, width={SCREENSHOOT_WITDH}]
 |===
+
