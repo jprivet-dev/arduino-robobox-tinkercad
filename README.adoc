@@ -20,7 +20,7 @@
 :APB_03_IMG: img/{APB_03_BASENAME}.png
 
 [#{BACK_TO_TOP_TARGET}]
-= Arduino / Tinkercad projects
+= Arduino / Robobox / Tinkercad Projects & Tests
 
 image:https://api.codacy.com/project/badge/Grade/678af1d16d8c4459845cd800e30692f5["Codacy code quality", link="https://www.codacy.com/app/jprivet-dev/arduino-tinkercad?utm_source=github.com&utm_medium=referral&utm_content=jprivet-dev/arduino-tinkercad&utm_campaign=Badge_Grade"]
 
@@ -32,23 +32,27 @@ toc::[]
 
 '''
 
-== Presentation
+{BACK_TO_TOP}
 
-All my https://www.arduino.cc/[Arduino] and https://www.tinkercad.com/[Tinkercad] projects.
+== Arduino Projects Book 2013 & Tinkercad
 
-Sources of inspiration:
+=== Presentation
+
+https://www.arduino.cc/[Arduino] and https://www.tinkercad.com/[Tinkercad] projects and tests. Sources of inspiration:
 
 - Examples from Arduino's main repository (https://github.com/arduino/Arduino/tree/master/build/shared/examples)
 - Arduino Projects Book 2013 of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015
 - Every once in a while... my brain
 
-{BACK_TO_TOP}
+=== License
 
-== Arduino Projects Book 2013 & Tinkercad
+The text of the **Arduino Projects Book** is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 3.0** License 2012 by **Arduino LLC**.
+
+=== Projects and tests
 
 **Tinkercad** projects based on the **Arduino Projects Book 2013** (APB) of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015.
 
-=== {APB_02_LABEL}
+==== {APB_02_LABEL}
 
 |===
 | LINKS | SCREESHOOT
@@ -58,7 +62,7 @@ a|
 a|image::{APB_02_IMG}[link={APB_02_LINK}, width={SCREENSHOOT_WITDH}]
 |===
 
-=== {APB_03_LABEL}
+==== {APB_03_LABEL}
 
 |===
 | LINKS | SCREESHOOT
@@ -69,7 +73,3 @@ a|image::{APB_03_IMG}[link={APB_03_LINK}, width={SCREENSHOOT_WITDH}]
 |===
 
 {BACK_TO_TOP}
-
-== License
-
-The text of the **Arduino Projects Book** is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 3.0** License 2012 by **Arduino LLC**.
