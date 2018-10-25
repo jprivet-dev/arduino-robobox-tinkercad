@@ -38,10 +38,12 @@ toc::[]
 
 === Presentation
 
-https://www.arduino.cc/[Arduino] and https://www.tinkercad.com/[Tinkercad] projects and tests. Sources of inspiration:
+https://www.arduino.cc/[Arduino] and https://www.tinkercad.com/[Tinkercad] projects and tests based on the **Arduino Projects Book 2013** (APB) of the Starter Kit I bought in 2015.
+
+=== Resources
 
 - Examples from Arduino's main repository (https://github.com/arduino/Arduino/tree/master/build/shared/examples)
-- Arduino Projects Book 2013 of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015
+- Arduino Projects Book 2013 of the Starter Kit (https://store.arduino.cc/genuino-starter-kit)
 - Every once in a while... my brain
 
 === License
@@ -49,8 +51,6 @@ https://www.arduino.cc/[Arduino] and https://www.tinkercad.com/[Tinkercad] proje
 The text of the **Arduino Projects Book** is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 3.0** License 2012 by **Arduino LLC**.
 
 === Projects and tests
-
-**Tinkercad** projects based on the **Arduino Projects Book 2013** (APB) of the Starter Kit (https://store.arduino.cc/genuino-starter-kit) I bought in 2015.
 
 ==== {APB_02_LABEL}
 
