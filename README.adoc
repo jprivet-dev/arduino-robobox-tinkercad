@@ -7,6 +7,7 @@
 :BACK_TO_TOP: <<{BACK_TO_TOP_TARGET},{BACK_TO_TOP_LABEL}>>
 
 :SCREENSHOOT_WITDH: 300
+
 :APB_02_LABEL: APB-02 Spaceship Interface
 :APB_02_LINK: https://www.tinkercad.com/things/2qAFmDYAGDe
 :APB_02_BASENAME: apb_02_spaceship_interface
@@ -18,6 +19,12 @@
 :APB_03_BASENAME: apb_03_love_o_meter
 :APB_03_INO: src/arduino-projects-book/ino/{APB_03_BASENAME}.ino
 :APB_03_IMG: docs/img/{APB_03_BASENAME}.png
+
+:ROBOBOX_02_LABEL: Robobox 02 - Bras articulé - Circuit de billes infini V1
+:ROBOBOX_02_LINK: https://www.tinkercad.com/things/ifL4sacrSCk
+:ROBOBOX_02_BASENAME: bras-articule-circuit-de-billes-infini
+:ROBOBOX_02_INO: src/robobox/ino/{ROBOBOX_02_BASENAME}.ino
+:ROBOBOX_02_IMG: docs/img/{ROBOBOX_02_BASENAME}.png
 
 [#{BACK_TO_TOP_TARGET}]
 = Arduino / Robobox / Tinkercad (Autodesk) Projects & Tests
@@ -73,3 +80,26 @@ a|image::{APB_03_IMG}[link={APB_03_LINK}, width={SCREENSHOOT_WITDH}]
 |===
 
 {BACK_TO_TOP}
+
+== Robobox & Tinkercad
+
+=== Presentation
+
+Robobox projects and tests : sharing of my Arduino & Tinkercad (Autodesk) codes and assemblies.
+
+=== Resources
+
+- https://www.robobox.fr
+- https://github.com/RoboboxFR
+
+=== Projects and tests
+
+==== {ROBOBOX_02_LABEL}
+
+|===
+| LINKS | SCREESHOOT
+a|
+- **Code** : link:{ROBOBOX_02_INO}[]
+- **Tinkercad project** : {ROBOBOX_02_LINK}
+a|image::{ROBOBOX_02_IMG}[link={ROBOBOX_02_LINK}, width={SCREENSHOOT_WITDH}]
+|===
