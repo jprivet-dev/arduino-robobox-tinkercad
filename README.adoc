@@ -10,14 +10,14 @@
 :APB_02_LABEL: APB-02 Spaceship Interface
 :APB_02_LINK: https://www.tinkercad.com/things/2qAFmDYAGDe
 :APB_02_BASENAME: apb_02_spaceship_interface
-:APB_02_INO: ino/{APB_02_BASENAME}.ino
-:APB_02_IMG: img/{APB_02_BASENAME}.png
+:APB_02_INO: src/arduino-projects-book/ino/{APB_02_BASENAME}.ino
+:APB_02_IMG: docs/img/{APB_02_BASENAME}.png
 
 :APB_03_LABEL: APB-03 Love-O-Meter
 :APB_03_LINK: https://www.tinkercad.com/things/cgPamtJwfSP
 :APB_03_BASENAME: apb_03_love_o_meter
-:APB_03_INO: ino/{APB_03_BASENAME}.ino
-:APB_03_IMG: img/{APB_03_BASENAME}.png
+:APB_03_INO: src/arduino-projects-book/ino/{APB_03_BASENAME}.ino
+:APB_03_IMG: docs/img/{APB_03_BASENAME}.png
 
 [#{BACK_TO_TOP_TARGET}]
 = Arduino / Robobox / Tinkercad (Autodesk) Projects & Tests
