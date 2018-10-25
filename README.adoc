@@ -82,7 +82,7 @@ The text of the **Arduino Projects Book** is licensed under a **Creative Commons
 ==== {APB_02_LABEL}
 
 |===
-| LINKS | SCREESHOOT
+| LINKS | SCREENSHOOT
 a|
 - **Code** : link:{APB_02_INO}[]
 - **Tinkercad project** : {APB_02_LINK}
@@ -92,7 +92,7 @@ a|image::{APB_02_IMG}[link={APB_02_LINK}, width={SCREENSHOOT_WITDH}]
 ==== {APB_03_LABEL}
 
 |===
-| LINKS | SCREESHOOT
+| LINKS | SCREENSHOOT
 a|
 - **Code** : link:{APB_03_INO}[]
 - **Tinkercad project** : {APB_03_LINK}
@@ -102,7 +102,7 @@ a|image::{APB_03_IMG}[link={APB_03_LINK}, width={SCREENSHOOT_WITDH}]
 ==== {APB_04_LABEL}
 
 |===
-| LINKS | SCREESHOOT
+| LINKS | SCREENSHOOT
 a|
 - **Code** : link:{APB_04_INO}[]
 - **Tinkercad project** : {APB_04_LINK}
@@ -112,7 +112,7 @@ a|image::{APB_04_IMG}[link={APB_04_LINK}, width={SCREENSHOOT_WITDH}]
 ==== {APB_05_LABEL}
 
 |===
-| LINKS | SCREESHOOT
+| LINKS | SCREENSHOOT
 a|
 - **Code** : link:{APB_05_INO}[]
 - **Tinkercad project** : {APB_05_LINK}
@@ -137,7 +137,7 @@ Robobox projects and tests : sharing of my Arduino & Tinkercad (Autodesk) codes 
 ==== {ROBOBOX_01_LABEL}
 
 |===
-| LINKS | SCREESHOOT
+| LINKS | SCREENSHOOT
 a|
 - **Code** : link:{ROBOBOX_01_INO}[]
 - **Tinkercad project** : {ROBOBOX_01_LINK}
@@ -147,7 +147,7 @@ a|image::{ROBOBOX_01_IMG}[link={ROBOBOX_01_LINK}, width={SCREENSHOOT_WITDH}]
 ==== {ROBOBOX_02_LABEL}
 
 |===
-| LINKS | SCREESHOOT
+| LINKS | SCREENSHOOT
 a|
 - **Code** : link:{ROBOBOX_02_INO}[]
 - **Tinkercad project** : {ROBOBOX_02_LINK}
